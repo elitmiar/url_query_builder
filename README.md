@@ -2,12 +2,12 @@
 Super simple TypeScript URL Query Builder
 
 ## Install
-``npm install url_query_builder --save``
+``npm install @elitmiar/url_query_builder --save``
 
 ## Usage
 
 ```
-import BuildHTTPQuery from 'url_query_builder';
+import BuildHTTPQuery from '@elitmiar/url_query_builder';
 
 const qb = new BuildHTTPQuery();
 
