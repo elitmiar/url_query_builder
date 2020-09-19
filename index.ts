@@ -23,6 +23,6 @@ export default class BuildHTTPQuery {
 			}
 		}
 
-		return qs.slice(0, -1);
+		return encodeURI(qs.slice(0, -1));
 	}
 }
