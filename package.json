@@ -1,0 +1,11 @@
+{
+  "name": "url_query_builder",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
+  "dependencies": {}
+}
