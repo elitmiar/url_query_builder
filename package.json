@@ -11,5 +11,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/elitmiar/url_query_builder"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
   }
 }

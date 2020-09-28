@@ -11,8 +11,12 @@ export default class BuildHTTPQuery {
 
 	private params: { key: string; value: string | number | boolean }[] = [];
 
-	public addQueryParam(key: string, value: string | number | boolean ) {
+	public addQueryParam(key: string, value: string | number | boolean) {
 		this.params.push({ key, value });
+	}
+
+	public removeQueryParam(key: string) {
+		this.params = this.params.filter(obj => obj.key !== key);
 	}
 
 	public getQueryString(): string {
